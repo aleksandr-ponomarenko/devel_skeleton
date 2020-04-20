@@ -1,0 +1,6 @@
+devel_skeleton.controller:
+  title: 'Devel skeleton callback'
+  parent: system.admin_config_development
+  description: 'Callback skeleton for development.'
+  route_name: devel_skeleton.controller
+  weight: 0

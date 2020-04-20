@@ -1,4 +1,4 @@
-devel.theme_registry:
+devel_skeleton.controller:
   path: '/devel/skeleton/controller'
   defaults:
     _controller: '\Drupal\devel_skeleton\Controller\DevelSkeletonController::build'
