@@ -1,0 +1,9 @@
+devel.theme_registry:
+  path: '/devel/skeleton/controller'
+  defaults:
+    _controller: '\Drupal\devel_skeleton\Controller\DevelSkeletonController::build'
+    _title: 'Skeleton controller'
+  options:
+    _admin_route: TRUE
+  requirements:
+    _permission: 'access devel skeleton'
