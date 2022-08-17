@@ -7,3 +7,11 @@ devel_skeleton.controller:
     _admin_route: TRUE
   requirements:
     _permission: 'access devel skeleton'
+
+devel_skeleton.form:
+  path: '/devel/skeleton/form'
+  defaults:
+    _form: 'Drupal\devel_skeleton\Form\DevelSkeletonForm'
+    _title: 'Skeleton form'
+  requirements:
+    _permission: 'access content'

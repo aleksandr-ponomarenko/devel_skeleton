@@ -4,3 +4,10 @@ devel_skeleton.controller:
   description: 'Callback skeleton for development.'
   route_name: devel_skeleton.controller
   weight: 0
+
+devel_skeleton.form:
+  title: 'Devel skeleton form'
+  parent: system.admin_config_development
+  description: 'Form skeleton for development.'
+  route_name: devel_skeleton.form
+  weight: 1

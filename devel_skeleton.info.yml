@@ -2,4 +2,4 @@ name: 'Devel skeleton'
 type: module
 description: 'Pattern of controller, block builder, etc.'
 package: 'Development'
-core: '8.x'
+core_version_requirement: ^8.8 || ^9
